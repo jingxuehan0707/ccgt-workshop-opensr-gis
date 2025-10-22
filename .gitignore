@@ -209,3 +209,10 @@ __marimo__/
 # Folder
 advertisements/
 advertisement/
+sql/
+cache/
+.DS_Store
+
+# QGIS
+*.qgz
+
