@@ -2,7 +2,9 @@
 
 Welcome to the Clemson Center for Geospatial Technology (CCGT) workshop!
 
-
+<a target="_blank" href="https://colab.research.google.com/github/jingxuehan0707/ccgt-workshop-opensr-gis/blob/main/open-source-gis-with-python.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 ## About Me: Harvey (Xuehan) Jing
 

@@ -1,7 +1,3 @@
-Here is the raw markdown for the cheatsheet, broken up by package as requested.
-
----
-
 # Open Source GIS with Python: Cheatsheet
 
 This cheatsheet summarizes the key functions and methods used in the workshop, categorized by their main purpose.
