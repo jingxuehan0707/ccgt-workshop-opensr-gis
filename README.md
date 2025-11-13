@@ -30,6 +30,11 @@ Welcome to the Clemson Center for Geospatial Technology (CCGT) workshop!
 * A powerful GIS technique: **Zonal Statistics** with **Rasterstats**.
 * How to create interactive web maps with **Leafmap** and `.explore()`.
 
+### 💡 Tips for Success
+
+* **Focus on concepts**, not memorizing code syntax.
+* **Watch how I use GenAI** throughout the workshop to write, debug, and explain code.
+
 ## Workshop Overview: A Real-World Analysis
 
 We will answer a practical question: **"What populations and infrastructure in LA County are at high risk for wildfires?"**
