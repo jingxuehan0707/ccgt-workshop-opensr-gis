@@ -212,6 +212,7 @@ advertisement/
 sql/
 cache/
 .DS_Store
+archive
 
 # QGIS
 *.qgz

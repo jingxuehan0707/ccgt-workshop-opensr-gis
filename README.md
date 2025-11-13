@@ -1,51 +1,59 @@
-# ccgt-workshop-opensr-gis
-Why do we want to use open source programming
+# Open Source GIS Programming with Python
 
-# Research question
-* How much the popolation and building are exposed to wildfire in Los Angeles County?
+Welcome to the Clemson Center for Geospatial Technology (CCGT) workshop!
 
-# Quick start
-In this section we will show case simple demo
-* read vector
-* read raster
-* visualize the both vector and raster in a map
-It is intended to give student a overview how the open source gis programming looks like
 
-# Repeat the Quick start with help of GenAI
-I will show how to use genai feature to write the code above. i will also use genai to instruct the following section across the workshop.
 
-# Vector -> Socioeconomic Layers
-Dataset used in this section
-* LA county boundary dataset
-* CA census Tract dataset
-* CA building footprint
+## About Me: Harvey (Xuehan) Jing
 
-In this section we will introduce geopandas, and demostrate how to
-* read LA county boundary from shp, duckdb, or download from openstreetmap api.
-* explain the geopandas dataframe object
-* select LA data by attribute, using GEOID
-* select LA data by location, using LA county boundary
-* export final data
-* visualize final data using leafmap python package
+* **Ph.D. Student**, Civil Engineering @ Clemson University
+* **Certified GIS Professional** (GISP)
+* **10+ years** of professional GIS experience (Esri, Hikvision)
+* **LinkedIn**: linkedin.com/in/jingxuehan0707
+* **Hobby:** Hiking & music composition
 
-# Raster -> Wildfire Risk Layers
-Dataset used in this section
-* Wildfire Hazard Potential (WHP) dataset. 1,2,3,4,5 represents very low, low, moderate, high, very high
+## Why Open Source GIS?
 
-In this section we will introduce rasterio, and demostrate how to
-* read data and explain the rasterio data object
-* clip the raster using LA county boundary
+* **Capability:** Perform powerful analysis without expensive licenses.
+* **Community:** Get support from a massive global community of developers.
+    - https://github.com/opengeos
+* **Customization:** Build and share your own tools and workflows.
+* **GenAI:** Modern AI tools are built to write and explain this code, making it easier than ever to learn.
 
-# Spatial analysis -> quantify the exposure and wildfire risk
-In this section we will show student how to use both vector data and raster data to quantify the wildfire exposure and wildfire risk.
-We will quantify the following using geopandas, raster, and rasterstats
-* The population exposure in each census tract. using population density from census tract multiply by the census tract area overlapped with wildfire burned area.
-* The building footprint exposure in each census tract. calculate the percentage of building exposed to wildfire burned area within each cenesus tract. % = number of building exposed/total number of building * 100
-* Quantify the building WHP risk. summarize the WHP class majoriry of each building using summarize whp within each building footprint. join the calculated wildfire whp risk class back to original building footprint for future visualization
+## You Will Learn
 
-# Visualization and web map
-Demonstrate how to display our final result using leafmap.
-* display raw data
-* display data using multiple symbology
-* display raster data
-* display map in 3d mode
+* The core "Vector + Raster" analysis workflow using Python.
+* How to **read, filter, and join** vector data (polygons, lines) with **GeoPandas**.
+* How to **clip and analyze** raster data (GeoTIFFs) with **Rasterio**.
+* A powerful GIS technique: **Zonal Statistics** with **Rasterstats**.
+* How to create interactive web maps with **Leafmap** and `.explore()`.
+
+## Workshop Overview: A Real-World Analysis
+
+We will answer a practical question: **"What populations and infrastructure in LA County are at high risk for wildfires?"**
+
+### Our Workflow:
+1.  **Prepare Data:** Load LA County boundaries, census tracts, railways, and a wildfire hazard raster.
+2.  **Process Vectors (GeoPandas):**
+    * Spatially select railways inside LA County (`.intersects`).
+    * Join population data to census tract polygons (`.merge`).
+3.  **Process Rasters (Rasterio):**
+    * Clip the statewide wildfire raster to the LA County boundary (`rasterio.mask.mask`).
+4.  **Analyze Risk (Rasterstats):**
+    * **Zonal Stats 1:** Calculate the *percent of high-risk land* in each census tract.
+    * **Zonal Stats 2:** Calculate the *percent of high-risk land* along railway buffers.
+5.  **Visualize (Leafmap):**
+    * Create interactive choropleth maps to find the most vulnerable areas.
+
+## Resources
+
+* **Workshop Book:** [Introduction to GIS Programming: A Practical Python Guide to Open Source Geospatial Tools.](https://gispro.gishub.org/#introduction)
+    > Wu, Q. (2025). Introduction to GIS Programming: A Practical Python Guide to Open Source Geospatial Tools. Independently published. ISBN 979-8286979455. https://amazon.com/dp/B0FFW34LL3
+* **Library Docs:**
+    * [GeoPandas](https://geopandas.org/en/stable/)
+    * [Rasterio](https://rasterio.readthedocs.io/en/latest/)
+    * [Rasterstats](https://pythonhosted.org/rasterstats/)
+    * [Leafmap](https://leafmap.org/)
+* **CLI Tools:**
+    * [viewgeom](https://github.com/nkeikon/geomviewer)
+    * [viewtif](https://github.com/nkeikon/tifviewer)
