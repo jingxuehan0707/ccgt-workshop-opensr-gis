@@ -1,4 +1,4 @@
-# Open Source GIS Programming with Python
+# Open Source GIS Programming with Python: An Application of Wildfire Risk Assessment
 
 Welcome to the Clemson Center for Geospatial Technology (CCGT) workshop!
 
@@ -35,7 +35,7 @@ Welcome to the Clemson Center for Geospatial Technology (CCGT) workshop!
 * **Focus on concepts**, not memorizing code syntax.
 * **Watch how I use GenAI** throughout the workshop to write, debug, and explain code.
 
-## Workshop Overview: A Real-World Analysis
+## Workshop Overview: An Application of Wildfire Risk Assessment
 
 We will answer a practical question: **"What populations and infrastructure in LA County are at high risk for wildfires?"**
 
@@ -56,11 +56,3 @@ We will answer a practical question: **"What populations and infrastructure in L
 
 * **Workshop Book:** [Introduction to GIS Programming: A Practical Python Guide to Open Source Geospatial Tools.](https://gispro.gishub.org/#introduction)
     > Wu, Q. (2025). Introduction to GIS Programming: A Practical Python Guide to Open Source Geospatial Tools. Independently published. ISBN 979-8286979455. https://amazon.com/dp/B0FFW34LL3
-* **Library Docs:**
-    * [GeoPandas](https://geopandas.org/en/stable/)
-    * [Rasterio](https://rasterio.readthedocs.io/en/latest/)
-    * [Rasterstats](https://pythonhosted.org/rasterstats/)
-    * [Leafmap](https://leafmap.org/)
-* **CLI Tools:**
-    * [viewgeom](https://github.com/nkeikon/geomviewer)
-    * [viewtif](https://github.com/nkeikon/tifviewer)
