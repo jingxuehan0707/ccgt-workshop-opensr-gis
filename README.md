@@ -1,4 +1,4 @@
-# Open Source GIS Programming with Python: An Application of Wildfire Risk Assessment
+# Open Source GIS Programming with Python: An Application in Wildfire Risk Assessment
 
 Welcome to the Clemson Center for Geospatial Technology (CCGT) workshop!
 
@@ -35,7 +35,7 @@ Welcome to the Clemson Center for Geospatial Technology (CCGT) workshop!
 * **Focus on concepts**, not memorizing code syntax.
 * **Watch how I use GenAI** throughout the workshop to write, debug, and explain code.
 
-## Workshop Overview: An Application of Wildfire Risk Assessment
+## Workshop Overview: An Application in Wildfire Risk Assessment
 
 We will answer a practical question: **"What populations and infrastructure in LA County are at high risk for wildfires?"**
 
