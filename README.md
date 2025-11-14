@@ -6,7 +6,7 @@ Welcome to the Clemson Center for Geospatial Technology (CCGT) workshop!
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-## About Me: Harvey (Xuehan) Jing
+## About Me: Xuehan (Harvey) Jing
 
 * **Ph.D. Student**, Civil Engineering @ Clemson University
 * **Certified GIS Professional** (GISP)
